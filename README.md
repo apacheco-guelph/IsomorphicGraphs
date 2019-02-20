@@ -30,5 +30,7 @@ struct{
 
 From this we would need to make a list of the structs and be able to traverse through it
 via their connections then be able to access their data from their connections pointer.
+With this working conecpet we can then make 2 different graphs and traverse them proving 
+that they are either isomorphic or non isomorphic.
 
 
