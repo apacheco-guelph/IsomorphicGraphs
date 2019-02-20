@@ -20,13 +20,13 @@ The next approach to this problem would be to build a struct that can hold the n
 - Name
 - Number of Connections
 - The names of their connections (and the names pointer to that struct)
-'''
+```
 struct{
   pointName;
   int* connectedNums;
   *pointer[];
 }
-'''
+```
 
 From this we would need to make a list of the structs and be able to traverse through it
 via their connections then be able to access their data from their connections pointer.
